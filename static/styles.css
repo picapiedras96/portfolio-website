@@ -1,0 +1,43 @@
+body {
+  font-size: 16px;
+  background-color: #393a40;
+}
+
+h1 {
+  font-size: 4em;
+  margin-top: 200px;
+}
+
+
+h1, p {
+  text-align: center;
+}
+
+h1, h4, p {
+  color: white;
+}
+
+.topnav {
+  overflow: hidden;
+  border-radius: .5%;
+  text-align: center;
+}
+
+.topnav a {     /*styling for navigation link allighnmet and location*/
+  display: inline-block;
+  color: white;
+  padding: 1rem 2rem;
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+
+p {
+  font-size: 1.5em;
+}
+
+.mainImg {
+  display: block;
+  margin: 20px auto;
+  width: 200px;
+  height: auto;
+}

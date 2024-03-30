@@ -1,11 +1,11 @@
-from flask import Flask
+from flask import Flask, render_template
 
 app = Flask(__name__)  #instance of Flask object
 
 
 @app.route("/")  #route/ sub address
 def hello_world():
-  return "<p>Hello, World!</p>"
+  return render_template("home.html")
 
 
 if __name__ == "__main__":  #if this file is run directly perform action
