@@ -1,3 +1,7 @@
+html {
+  font-family: Roboto;
+}
+
 body {
   font-size: 16px;
   background-color: #393a40;
@@ -31,6 +35,13 @@ h1, h4, p {
   font-size: 1.2rem;
 }
 
+.topnav a:hover { /*styling for cursor floation over navigation links*/
+  padding-bottom: 15px;
+  border-bottom-style: solid;
+}
+
+
+
 p {
   font-size: 1.5em;
 }
@@ -40,4 +51,29 @@ p {
   margin: 20px auto;
   width: 200px;
   height: auto;
+}
+
+footer {
+  flex: 0; /* Prevent footer from growing */
+  margin-top: 200px; /* Push footer to the bottom */
+  color: white;
+  text-align: center;
+  padding-bottom:  0px;
+}
+
+/* Style the <nav> element containing your icons */
+.social nav {
+    display: flex; /* Arrange icons horizontally */
+    gap: 10px; /* Add some spacing between icons */
+}
+
+/* Style the <img> elements (your icons) */
+.social a {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.social img {
+    width: 30px; /* Adjust the width to make them smaller */
+    height: auto; /* Maintain aspect ratio */
 }

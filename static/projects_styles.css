@@ -1,0 +1,24 @@
+.container {
+  display: flex;
+  alig-items: center;
+  max-width: 1400px;
+  margin: 40px auto auto auto;
+  max-height: 430px;
+  overflow: hidden; /* Prevent content overflow */
+}
+
+.project_img {
+  width: 50%;
+  height: 100%;
+}
+
+.details {
+  flex: 1;
+  margin-left: 20px;
+  color: white;
+}
+
+.title {
+  font-size: 1.5em;
+  text-align: center;
+}
