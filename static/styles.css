@@ -1,79 +1,151 @@
+/* Global Styling */
+
 html {
-  font-family: Roboto;
+    font-family: Roboto;
+    color: white;
 }
 
 body {
-  font-size: 16px;
-  background-color: #393a40;
+    position: relative;
+    min-height: 100vh;
+    margin: auto;
+    padding: 0;
+    font-size: 16px;
+    background-color: #393a40;
+}
+
+.navbar-custom {
+    background-color: #393a40;
 }
 
 h1 {
-  font-size: 4em;
-  margin-top: 200px;
+    font-size: 4em;
 }
 
 
 h1, p {
-  text-align: center;
+    text-align: center;
 }
 
 h1, h4, p {
-  color: white;
+    color: white;
 }
-
-.topnav {
-  overflow: hidden;
-  border-radius: .5%;
-  text-align: center;
-}
-
-.topnav a {     /*styling for navigation link allighnmet and location*/
-  display: inline-block;
-  color: white;
-  padding: 1rem 2rem;
-  text-decoration: none;
-  font-size: 1.2rem;
-}
-
-.topnav a:hover { /*styling for cursor floation over navigation links*/
-  padding-bottom: 15px;
-  border-bottom-style: solid;
-}
-
-
 
 p {
-  font-size: 1.5em;
+    font-size: 1.5em;
+}
+
+.imgSection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 0;
 }
 
 .mainImg {
-  display: block;
-  margin: 20px auto;
-  width: 200px;
-  height: auto;
+    width: 200px;
+    height: auto;
 }
 
 footer {
-  flex: 0; /* Prevent footer from growing */
-  margin-top: 200px; /* Push footer to the bottom */
-  color: white;
-  text-align: center;
-  padding-bottom:  0px;
+    flex: 0; /* Prevent footer from growing */
+    color: white;
+    text-align: center;
+    position: flow;
+    /* margin-top: 300px; */
+    padding-bottom:  0px;
+    margin-bottom: 0px;
 }
 
-/* Style the <nav> element containing your icons */
-.social nav {
-    display: flex; /* Arrange icons horizontally */
-    gap: 10px; /* Add some spacing between icons */
+  /* Style the <nav> element containing your icons */
+  .social nav {
+      display: flex;
+      gap: 10px;
 }
 
-/* Style the <img> elements (your icons) */
-.social a {
-  margin-left: 5px;
-  margin-right: 5px;
+  .social a {
+    margin-left: 5px;
+    margin-right: 5px;
 }
 
-.social img {
-    width: 30px; /* Adjust the width to make them smaller */
-    height: auto; /* Maintain aspect ratio */
+  .social img {
+      width: 30px;
+      height: auto;
+}
+
+a {
+    color: white;
+}
+
+
+
+.mainImg {
+    display: block;
+    margin: 20px;
+}
+
+/* Styling for mobile devices */
+@media (min-width: 320px) and (max-width: 599px) 
+{
+
+    body {
+        margin: 0;
+        padding: 0;
+        font-size: 16px;
+        background-color: #393a40;
+    }
+
+    h1 {
+        font-size: 4em;
+        margin-top: 40px;
+    }
+
+
+    h1, p {
+        text-align: center;
+    }
+
+    h1, h4, p {
+        color: white;
+    }
+
+
+
+      .mainImg {
+        display: block;
+        margin: 60px auto;
+        width: 60%;
+        height: auto;
+      }
+
+
+      footer {
+        flex: 0; /* Prevent footer from growing */
+        color: white;
+        text-align: center;
+        position: flow;
+        padding-bottom:  0px;
+        margin-bottom: 0px;
+      }
+
+      h4 {
+        font-size: 20px;
+      }
+
+      
+      .social nav {
+          display: flex;
+          gap: 10px;
+      }
+
+      .social a {
+        margin-left: 5px;
+        margin-right: 5px;
+      }
+
+      .social img {
+          width: 40px;
+          height: auto;
+      }
+
 }
