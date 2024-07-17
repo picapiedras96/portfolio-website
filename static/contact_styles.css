@@ -16,6 +16,10 @@
   margin-left: 10px;
 }
 
+.info {
+  text-align: left;
+}
+
 /* Styling for mobile devices */
 @media (min-width: 320px) and (max-width: 599px) 
 {
@@ -43,6 +47,7 @@
   .details p {
     margin-top: 20px;
     min-width: 0;
+    font-size: 17px;
   }
 
 }
