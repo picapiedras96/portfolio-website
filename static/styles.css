@@ -6,20 +6,35 @@ html {
 }
 
 body {
-    position: relative;
-    min-height: 100vh;
-    margin: auto;
+    margin: 0;
     padding: 0;
-    font-size: 16px;
     background-color: #393a40;
 }
+
+.containerMain {
+      display: flex;
+      flex-direction: column;
+      min-height: 100%;
+        color: white;
+        text-align: center;
+  }
+
+main {
+     flex: 0 0 auto;    
+     border 2px;
+ }
 
 .navbar-custom {
     background-color: #393a40;
 }
 
+section {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
 h1 {
-    font-size: 4em;
+    font-size: 50px;
 }
 
 
@@ -31,15 +46,20 @@ h1, h4, p {
     color: white;
 }
 
+h5, h4 {
+      font-size: 16px;
+  }
+
+
 p {
-    font-size: 1.5em;
+    font-size: 20px;
 }
 
 .imgSection {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 50px 0;
+    margin: 80px 0;
 }
 
 .mainImg {
@@ -56,6 +76,11 @@ footer {
     padding-bottom:  0px;
     margin-bottom: 0px;
 }
+
+.sociallinks {
+      margin-bottom: 20px;
+      margin-top: 20px;
+  }
 
   /* Style the <nav> element containing your icons */
   .social nav {
@@ -84,6 +109,10 @@ a {
     margin: 20px;
 }
 
+.img_ref {
+    margin-bottom: 20px;
+}
+
 /* Styling for mobile devices */
 @media (min-width: 320px) and (max-width: 599px) 
 {
@@ -98,7 +127,7 @@ a {
     .main {
          flex: 1 0 auto;
          padding: 3rem;
-         border 2px solid #eee;
+         border 2px;
      }
     
       .navbar-custom .navbar-nav .nav-link {
@@ -115,8 +144,8 @@ a {
       }
 
     h1 {
-        font-size: 4em;
-        margin-top: 40px;
+        margin-top: 20px;
+        font-size: 28px;
     }
 
     p {
@@ -132,11 +161,16 @@ a {
         color: white;
     }
 
+    .imgSection {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 80px 0 60px 0;
+    }
 
 
       .mainImg {
         display: block;
-        margin: 60px auto;
         width: 60%;
         height: auto;
       }
@@ -152,8 +186,12 @@ a {
       
 
       h4 {
-        font-size: 20px;
+        font-size: 16px;
       }
+
+    .img_ref {
+        margin-bottom: 20px;
+    }
 
       h5 {
           font-size: 16px;

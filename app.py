@@ -9,7 +9,7 @@ PROJECTS = [{
     'title':
     'pedrothedev.com',
     'description':
-    '   The website you are currently browsing on is my first official launched project. I decided to create this website in May 2024 as an opportuinity to apply and display my development skills. I decided to implement the website with flask as it was an opportunity to use Python on my project one of my favorite languages. The domain "pedrothedev.com" came into existance with the idea to title my page "Vote for Pedro", sadly this domain was already taken and not worth the price. In this site you will find various implementations of CSS and HTML as well as some Python. My end goal for this site is to create a presense as I grow and develop more projects, this site is a continous project and will have future updates as I test new ideas.'
+    '   The website you are currently browsing is my first official project, initiated in May 2024. Balancing this project alongside my internship, I developed the site using Flask and incorporated various Python implementations. As my inaugural project, I’m excited to continue expanding the website with new ideas and experimental features.'
 }]
 
 

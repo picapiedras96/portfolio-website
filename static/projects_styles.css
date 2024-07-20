@@ -4,6 +4,7 @@
   align-items: center;
   max-width: 1400px;
   margin: 50px auto 50px auto;
+  gap: 20px;
 }
 
 .project_img {
@@ -13,12 +14,15 @@
 }
 
 .details {
-  margin-left: 10px;
+  displaY: block;
 }
 
+
 .title {
+  font-size: 50px;
   text-align: center;
   color: white;
+  margin-bottom: 8px;
 }
 
 
@@ -43,18 +47,21 @@
   }
 
   .details {
-    margin-top: 20px;
+    display: block;
+    margin-left: 0px;
   }
 
   .title {
+    font-size: 20px;
     margin-top: 20px;
-    margin-bottom: 16px;
+    margin-bottom: 10px;
     text-align: center;
     color: white;
   }
 
   .details p {
-    margin-top: 20px;
+    margin-top: 10px;
+    margin-bottom: 0px
     min-width: 0;
   }
 
