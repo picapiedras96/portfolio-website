@@ -28,9 +28,9 @@ def projects():
   return render_template("projects.html", projects=PROJECTS)
 
 
-@app.route("/contact")
+@app.route("/about")
 def contact():
-  return render_template("contact.html")
+  return render_template("about.html")
 
 
 if __name__ == "__main__":  #if this file is run directly perform action

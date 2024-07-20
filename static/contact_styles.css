@@ -40,14 +40,22 @@
     border-radius: 5px;
   }
 
-  .details {
+  .title {
     margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 28px;
+  }
+
+  .details {
+    display: block;
+    margin-left: 0px;
   }
 
   .details p {
-    margin-top: 20px;
+    margin-top: 10px;
     min-width: 0;
-    font-size: 17px;
+    font-size: 16px;
+    margin-bottom: 0px;
   }
 
 }

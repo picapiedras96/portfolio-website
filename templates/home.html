@@ -12,42 +12,46 @@
 
     <body>
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-      <header>           
-        <nav class="navbar navbar-custom navbar-dark navbar-expand-lg">
-          <div class="container-fluid">
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-                  <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                      <li class="nav-item"><a class="nav-link active" aria-current="page" href="#home">Home</a></li>
-                      <li class="nav-item"><a class="nav-link" href="{{ url_for('projects') }}">Projects</a></li>
-                      <li class="nav-item"><a class="nav-link" href="https://youtu.be/dQw4w9WgXcQ?t=43" target="_blank" rel="noopener noreferrer">Click Me!</a></li>
-                      <li class="nav-item"><a class="nav-link" href="{{ url_for('contact') }}">Contact Information</a></li>
-                  </ul>
-              </div>
-          </div>
-        </nav>
-      </header>
-        <div class="banner">
-          <h1>Vote for Pedro!</h1>
-          <p class="tagL">Welcome to my Site!</p>
-        </div>
-        <section class="imgSection"> <!--Section contains rocket image, that initates galaga game-->
-            <img class="mainImg" src = "static/rocket.png" alt = "Cool Spaceship">
-        </section>
-        <footer>
-          <div class="sociallinks">
-            <h4>Reach Me At</h4>
-            <nav class="social">
-                <a href="https://www.instagram.com/aloofprograming/?hl=en" target="_blank" alt="instagram icon"><img src="static/instagram.png"></a>
-                <a href="mailto:your-email@example.com"><img src="static/email.png" alt="email icon"</a>
-            </nav>
-          </div>
-          <h4>Image Sources:</h4>
-          <a href="https://www.flaticon.com/free-icons/" title="space ship icons" target="_blank">Space ship icons created by Andrejs Kirma - Flaticon</a>
-          <h5>Copyright &#169; 2024 Pedro Ibarra</h5>
-        </footer>
+      <div class="containerMain">
+          <main>
+              <header>           
+                    <nav class="navbar navbar-custom navbar-dark navbar-expand-lg">
+                      <div class="container-fluid">
+                          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                          <span class="navbar-toggler-icon"></span>
+                          </button>
+                          <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+                              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                                  <li class="nav-item"><a class="nav-link active" aria-current="page" href="#home">Home</a></li>
+                                  <li class="nav-item"><a class="nav-link" href="{{ url_for('projects') }}">Projects</a></li>
+                                  <li class="nav-item"><a class="nav-link" href="https://youtu.be/dQw4w9WgXcQ?t=43" target="_blank" rel="noopener noreferrer">Click Me!</a></li>
+                                  <li class="nav-item"><a class="nav-link" href="{{ url_for('contact') }}">Contact Information</a></li>
+                              </ul>
+                          </div>
+                      </div>
+                    </nav>
+                  </header>
+                    <div class="banner">
+                      <h1>Vote for Pedro!</h1>
+                      <p class="tagL">Welcome to my Site!</p>
+                    </div>
+                    <section class="imgSection"> <!--Section contains rocket image, that initates galaga game-->
+                        <img class="mainImg" src = "static/rocket.png" alt = "Cool Spaceship">
+                    </section>
+          </main>
+          <footer>
+            <div class="sociallinks">
+                <nav class="social">
+                    <a href="https://www.instagram.com/aloofprograming/?hl=en" target="_blank" alt="instagram icon"><img src="static/instagram.png"></a>
+                    <a href="mailto:your-email@example.com"><img src="static/email.png" alt="email icon"></a>
+                </nav>
+            </div>
+            <h4>Image Sources:</h4>
+            <a href="https://www.flaticon.com/free-icons/" title="space ship icons" target="_blank">Space ship icons created by Andrejs Kirma - Flaticon</a>
+            <h5>Copyright &#169; 2024 Pedro Ibarra</h5>
+         </footer>
+      </div>
+      
 
     </body>
 </html>

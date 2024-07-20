@@ -95,6 +95,25 @@ a {
         background-color: #393a40;
     }
 
+    .main {
+         flex: 1 0 auto;
+         padding: 3rem;
+         border 2px solid #eee;
+     }
+    
+      .navbar-custom .navbar-nav .nav-link {
+        text-align: left;
+      }
+
+
+    .containerMain {
+          display: flex;
+          flex-direction: column;
+          min-height: 100%;
+            color: white;
+            text-align: center;
+      }
+
     h1 {
         font-size: 4em;
         margin-top: 40px;
@@ -124,22 +143,31 @@ a {
 
 
       footer {
-        flex: 0; /* Prevent footer from growing */
+        
         color: white;
         text-align: center;
-        position: flow;
-        padding-bottom:  0px;
-        margin-bottom: 0px;
-      }
+        flex: 1 0 auto;
+        padding: 3rem;
+      } 
+      
 
       h4 {
         font-size: 20px;
       }
 
-      
+      h5 {
+          font-size: 16px;
+      }
+
+      .sociallinks {
+          margin-bottom: 20px;
+          margin-top: 20px;
+      }
+    
       .social nav {
           display: flex;
           gap: 10px;
+          padding-bottom: 20px;
       }
 
       .social a {
@@ -148,7 +176,7 @@ a {
       }
 
       .social img {
-          width: 40px;
+          width: 35px;
           height: auto;
       }
 
