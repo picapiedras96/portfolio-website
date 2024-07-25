@@ -1,26 +1,30 @@
 /* Global Styling */
 
 html {
-    font-family: Roboto;
+    ffont-family: Roboto;
     color: white;
-}
+    height: 100%;
 
 body {
     margin: 0;
     padding: 0;
+    min-height: 100vh;
     background-color: #393a40;
+    display: flex;
+    flex-direction: column;
 }
 
 .containerMain {
-      display: flex;
-      flex-direction: column;
-      min-height: 100%;
-        color: white;
-        text-align: center;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+    color: white;
+    text-align: center;
   }
 
 main {
-     flex: 0 0 auto;    
+     flex: 1;    
      border 2px;
  }
 
@@ -59,7 +63,7 @@ p {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 80px 0;
+    margin: 200px 0;
 }
 
 .mainImg {
@@ -68,11 +72,12 @@ p {
 }
 
 footer {
-    flex: 0; /* Prevent footer from growing */
+    
+    width: 100vw;
+    flex: 0;
     color: white;
     text-align: center;
     position: flow;
-    /* margin-top: 300px; */
     padding-bottom:  0px;
     margin-bottom: 0px;
 }
@@ -81,8 +86,6 @@ footer {
       margin-bottom: 20px;
       margin-top: 20px;
   }
-
-  /* Style the <nav> element containing your icons */
   .social nav {
       display: flex;
       gap: 10px;
@@ -91,6 +94,7 @@ footer {
   .social a {
     margin-left: 5px;
     margin-right: 5px;
+      color: white;
 }
 
   .social img {
@@ -101,8 +105,6 @@ footer {
 a {
     color: white;
 }
-
-
 
 .mainImg {
     display: block;
@@ -121,7 +123,6 @@ a {
         margin: 0;
         padding: 0;
         font-size: 16px;
-        background-color: #393a40;
     }
 
     .main {
@@ -132,15 +133,6 @@ a {
     
       .navbar-custom .navbar-nav .nav-link {
         text-align: left;
-      }
-
-
-    .containerMain {
-          display: flex;
-          flex-direction: column;
-          min-height: 100%;
-            color: white;
-            text-align: center;
       }
 
     h1 {
@@ -177,7 +169,6 @@ a {
 
 
       footer {
-        
         color: white;
         text-align: center;
         flex: 1 0 auto;
@@ -185,7 +176,7 @@ a {
       } 
       
 
-      h4 {
+      h4, h5 {
         font-size: 16px;
       }
 
@@ -193,29 +184,25 @@ a {
         margin-bottom: 20px;
     }
 
-      h5 {
-          font-size: 16px;
-      }
-
-      .sociallinks {
+    .sociallinks {
           margin-bottom: 20px;
           margin-top: 20px;
-      }
+    }
     
-      .social nav {
+    .social nav {
           display: flex;
           gap: 10px;
           padding-bottom: 20px;
-      }
+    }
 
-      .social a {
+    .social a {
         margin-left: 5px;
         margin-right: 5px;
-      }
+    }
 
-      .social img {
+    .social img {
           width: 35px;
           height: auto;
-      }
+    }
 
 }
